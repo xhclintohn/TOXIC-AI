@@ -10,6 +10,9 @@
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=TOXIC-BOT+WHATSAPP+BOT" alt="">
 </p>
 
+<p align="center">
+<a href="https://github.com/Maher-Zubair"><img title="Owner" src="https://img.shields.io/badge/Owner-Maher Zubair-black.svg?style=for-the-badge&logo=github" width="173px" height="29"></a>
+
 
 ## ```Connect With Me```
 
