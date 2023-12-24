@@ -1,6 +1,6 @@
 ## TOXIC-AI
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=LONG LIVE+👑TOXIC-MD👑;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+CLINTON;PUBLIC+RELESED; ...;TEAM TOXIC®." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=WELCOME TO+TOXIC AI🤖;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+CLINTON;PUBLIC+RELESED; ...;TEAM TOXIC®." alt="Typing SVG" /></a>
   </p>
   
 <p align="center">
@@ -31,7 +31,7 @@
 <a href="https://github.com/owlai01/CROWN-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kimsirm/CROWN-MD?label=Watchers&color=red&style=flat-square"></a>
 <a href="https://github.com/kimsirm/CROWN-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/owlai01/Owl-Ai/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/owlai01/CROWN-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/xhclintohn/TOXIC-AI/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
 
