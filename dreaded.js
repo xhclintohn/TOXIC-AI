@@ -48,9 +48,9 @@ const Heroku = require("heroku-client");
 const gptdm = process.env.GPT_INBOX || 'TRUE';
     const cmd = body.startsWith(prefix);
 //const autobio = process.env.AUTOBIO || 'TRUE';
-const botname = process.env.BOTNAME || 'CROWN AI';
+const botname = process.env.BOTNAME || 'Toxic AI';
 const antibot = process.env.ANTIBOT || 'FALSE';
-  
+
     const command = body.replace(prefix, "").trim().split(/ +/).shift().toLowerCase();
     const args = body.trim().split(/ +/).slice(1);
     const pushname = m.pushName || "No Name";
@@ -73,16 +73,16 @@ const antibot = process.env.ANTIBOT || 'FALSE';
      };
     const fortu = (m.quoted || m); 
          const quoted = (fortu.mtype == 'buttonsMessage') ? fortu[Object.keys(fortu)[1]] : (fortu.mtype == 'templateMessage') ? fortu.hydratedTemplate[Object.keys(fortu.hydratedTemplate)[1]] : (fortu.mtype == 'product') ? fortu[Object.keys(fortu)[0]] : m.quoted ? m.quoted : m; 
- 
+
 
     const color = (text, color) => {
       return !color ? chalk.green(text) : chalk.keyword(color)(text);
     };
     const mime = (quoted.msg || quoted).mimetype || "";
             const qmsg = (quoted.msg || quoted);
-    const author = process.env.STICKER_AUTHOR ||'𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
-    const packname = process.env.STICKER_PACKNAME || 'crown';
-const dev = process.env.DEV || '923195832822'
+    const author = process.env.STICKER_AUTHOR ||'𝑪𝑳𝑰𝑵𝑻𝑶𝑵™';
+    const packname = process.env.STICKER_PACKNAME || 'Toxic';
+const dev = process.env.DEV || '254735342808'
 
 const menu = process.env.MENU_TYPE || 'VIDEO';
  const DevDreaded = dev.split(",");
@@ -101,7 +101,7 @@ const menu = process.env.MENU_TYPE || 'VIDEO';
 const admin = process.env.ADMIN_MSG || '𝐅𝐚𝐢𝐥𝐮𝐫𝐞!, 𝐘𝐨𝐮 𝐚𝐫𝐞 𝐭𝐨𝐨 𝐲𝐨𝐮𝐧𝐠 𝐭𝐨 𝐝𝐨 𝐭𝐡𝐚𝐭🦄';
     const group = process.env.GROUP_ONLY_MSG || 'Is this a group chat?';
     const botAdmin = process.env.BOT_ADMIN_MSG || '𝐅**𝐤 𝐲𝐨𝐮 🦄𝐚𝐦 𝐚𝐧 𝐧𝐨𝐭 𝐚𝐧 𝐚𝐝𝐦𝐢𝐧'
-    const NotOwner = process.env.NOT_OWNER_MSG || 'Lol you are not 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏';
+    const NotOwner = process.env.NOT_OWNER_MSG || 'Lol you are not 𝑪𝑳𝑰𝑵𝑻𝑶𝑵™';
 const wapresence = process.env.WA_PRESENCE || 'recording';
 const antilink = process.env.ANTILINK || 'TRUE';
 const antilinkall = process.env.ANTILINK_ALL || 'FALSE';
@@ -118,21 +118,21 @@ const runtime = function (seconds) {
  var sDisplay = s > 0 ? s + (s == 1 ? " 𝐬𝐞𝐜𝐨𝐧𝐝" : " 𝐒𝐞𝐜𝐨𝐧𝐝𝐬") : ""; 
  return dDisplay + hDisplay + mDisplay + sDisplay; 
  } 
-  
+
  const timestamp = speed(); 
    const dreadedspeed = speed() - timestamp 
- 
+
     // Push Message To Console
     let argsLog = budy.length > 30 ? `${q.substring(0, 30)}...` : budy;
 
 if (wapresence === 'recording' && !m.isGroup) { 
-            
+
   client.sendPresenceUpdate('recording', m.chat);
 } else if (wapresence === 'typing' && !m.isGroup) { 
-            
+
   client.sendPresenceUpdate('recording', m.chat);
     }
-    
+
 
 
 
@@ -143,11 +143,11 @@ if (wapresence === 'recording' && !m.isGroup) {
 
 
 
-  
-  
- 
 
-         
+
+
+
+
 function _0x4f1b(_0x44e88, _0x1e223f) {
     var _0x3db626 = _0x11cc();
     return _0x4f1b = function (_0x2e8ed0, _0x5cd594) {
@@ -168,7 +168,7 @@ function _0x11cc() {
         'split',
         '84AXXWgJ',
         '4435424UJQIXb',
-        'y\x20CROWN\x20',
+        'y\x20Toxic\x20',
         'TRUE',
         'tibot:\x0a\x0a@',
         '\x20as\x20a\x20bot.',
@@ -191,7 +191,7 @@ function _0x11cc() {
         '184473FwtnYZ',
         '18szWhmE',
         'startsWith',
-        '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈\x20an',
+        '𝑪𝑳𝑰𝑵𝑻𝑶𝑵-𝐀𝐈\x20an',
         '376590puyzhN',
         'key'
     ];
@@ -228,13 +228,13 @@ if (budy.startsWith('>')) {
  await reply(String(err)); 
    } 
  } 
- 
+
 
 
 
     if (gptdm === 'TRUE' && m.chat.endsWith("@s.whatsapp.net")) {
 
-  	
+
 
   // if (!text) return reply("I need more text. For better experience with my inbox AI make longer statements.");
 
@@ -280,18 +280,18 @@ const response = await openai.createChatCompletion({
 
     }
 if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b' + badword.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
-            
+
      client.groupParticipantsUpdate(from, [sender], 'remove')
             reply("Au revoir.\n\nBot owner hates usage of bad words!")
-            
-        
+
+
                                                    }
     if (antilink === 'TRUE' && body.includes('chat.whatsapp.com') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
-  
+
  kid = m.sender; 
-  
+
  client.sendMessage(m.chat, { 
-  
+
                 delete: { 
                    remoteJid: m.chat, 
                    fromMe: false, 
@@ -303,11 +303,11 @@ if (badwordkick === 'TRUE' && isBotAdmin && !isAdmin && body && (new RegExp('\\b
        }   
 
 if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !Owner && isBotAdmin && !isAdmin && m.isGroup) { 
-  
+
  ki = m.sender; 
-  
+
  client.sendMessage(m.chat, { 
-  
+
                 delete: { 
                    remoteJid: m.chat, 
                    fromMe: false, 
@@ -317,12 +317,12 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
              }).then(() => client.groupParticipantsUpdate(m.chat, [ki], 'remove')); 
  client.sendMessage(m.chat, {text:`Auf wiedersehen:\n\n@${ki.split("@")[0]}, sending links is prohibited in this group!`, contextInfo:{mentionedJid:[ki]}}, {quoted:m}); 
        }   
-  
-  
-  
+
+
+
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ CROWN-AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ Toxic-AI ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -339,120 +339,119 @@ if (antilink === 'TRUE' && antilinkall === 'TRUE' && body.includes('http') && !O
       switch (command) {
       case "help":
         case "menu":
-let cap = `╭════〘 *_𝐂𝐑𝐎𝐖𝐍 𝐁𝐎𝐓_* 〙═⊷❍
-┃✯╭──────────────
-┃✯│ *_𝐎𝐰𝐧𝐞𝐫 : 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏_*
-┃✯│ *_𝐔𝐬𝐞𝐫 : ${m.pushName}_*
-┃✯│ *_𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐋𝐢𝐧𝐮𝐱_*
-┃✯│ *_𝐒𝐩𝐞𝐞𝐝 : ${dreadedspeed.toFixed(4)} 𝐦𝐬_*
-┃✯│ *_𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐑𝐀𝐌 : 𝟑𝟒𝐆𝐁 𝐨𝐟 𝟔𝟐𝐆𝐁_*
-┃✯│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : ${runtime(process.uptime())}_*
-┃✯│ *_𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟔.𝟎.9_*
-┃✯│
-┃✯│
-┃✯│▎▍▌▌▉▏▎▌▉▐▏▌
-┃✯│▎▍▌▌▉▏▎▌▉▐▏▌
-┃✯│  𝐓𝐡𝐞𝐞 𝐂𝐫𝐨𝐰𝐧 
-┃✯│
+let cap = `╭════〘 *_𝐓𝐎𝐗𝐈𝐂 𝐁𝐎𝐓_* 〙═⊷❍
+┃☢╭──────────────
+┃☢│ *_𝐎𝐰𝐧𝐞𝐫 : 𝐂𝐋𝐈𝐍𝐓𝐎𝐍*
+┃☢│ *_𝐔𝐬𝐞𝐫 : {m.pushName}_*
+┃☢│ *_𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : 𝐋𝐢𝐧𝐮𝐱_*
+┃☢│ *_𝐒𝐩𝐞𝐞𝐝 : {dreadedspeed.toFixed(4)} 𝐦𝐬_*
+┃☢│ *_𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐑𝐀𝐌 : 𝟑𝟒𝐆𝐁 𝐨𝐟 𝟔𝟐𝐆𝐁_*
+┃☢│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞 : {runtime(process.uptime())}_*
+┃☢│ *_𝐕𝐞𝐫𝐬𝐢𝐨𝐧: 𝐯𝟔.𝟎.𝟖_*
+┃☢│
+┃☢│
+┃☢│▎▍▌▌▉▏▎▌▉▐▏▌
+┃☢│▎▍▌▌▉▏▎▌▉▐▏▌
+┃☢│ 𝐓𝐎𝐗𝐈𝐂
+┃☢│
 ┃╰─────
 ╰─────────────────❍
 ╭══〘 *_𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃_* 〙══⊷❍
 ▯╭────────────···▸
-┴✯│
-┃✯│ *_𝐕𝐢𝐝𝐞𝐨_*
-┃✯│ *_𝐏𝐥𝐚𝐲_*
-┃✯│ *_𝐌𝐨𝐯𝐢𝐞_*
-┃✯│ *_𝐋𝐲𝐫𝐢𝐜𝐬_*
-┃✯│ *_𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠_*
-┃✯│ *_𝐘𝐭𝐬_*
-┃✯│ *_𝐘𝐭𝐦𝐩𝟑_*
-┃✯│ *_𝐘𝐭𝐦𝐩𝟒_*
-┬✯│
+┴☢│
+┃☢│ *_𝐕𝐢𝐝𝐞𝐨_*
+┃☢│ *_𝐏𝐥𝐚𝐲_*
+┃☢│ *_𝐌𝐨𝐯𝐢𝐞_*
+┃☢│ *_𝐋𝐲𝐫𝐢𝐜𝐬_*
+┃☢│ *_𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠_*
+┃☢│ *_𝐘𝐭𝐬_*
+┃☢│ *_𝐘𝐭𝐦𝐩𝟑_*
+┃☢│ *_𝐘𝐭𝐦𝐩𝟒_*
+┬☢│
 │╰────────────────❍
 ╰════════════════⊷❍
 ╭═════〘 *_𝐄𝐃𝐈𝐓_* 〙════⊷❍
 ▯╭─────────────···▸
-┴✯│
-┃✯│ *_𝐒𝐭𝐢𝐜𝐤𝐞𝐫_*
-┃✯│ *_𝐒𝐦𝐞𝐦𝐞_*
-┃✯│ *_𝐏𝐡𝐨𝐭𝐨_*
-┃✯│ *_𝐌𝐢𝐱_*
-┃✯│ *_𝐓𝐚𝐤𝐞_*
-┬✯│
+┴☢│
+┃☢│ *_𝐒𝐭𝐢𝐜𝐤𝐞𝐫_*
+┃☢│ *_𝐒𝐦𝐞𝐦𝐞_*
+┃☢│ *_𝐏𝐡𝐨𝐭𝐨_*
+┃☢│ *_𝐌𝐢𝐱_*
+┃☢│ *_𝐓𝐚𝐤𝐞_*
+┬☢│
 │╰────────────────❍
 ╰════════════════⊷❍
 ╭═══════〘 *_𝐀𝐈_* 〙════⊷❍
 ▯╭─────────────···▸
-┴✯│
-┃✯│ *_𝐀𝐢-𝐢𝐦𝐠_*
-┃✯│ *_𝐂𝐫𝐨𝐰𝐧_*
-┃✯│ *_𝐆_*
-┃✯│ *_𝐆𝐩𝐭_*                                                                                                                                                                                                                                                         
-┬✯│
+┴☢│
+┃☢│ *_𝐀𝐢-𝐢𝐦𝐠_*
+┃☢│ *_𝐂𝐫𝐨𝐰𝐧_*
+┃☢│ *_𝐆_*
+┃☢│ *_𝐆𝐩𝐭_*                                                                                                                                                                                                                                                         
+┬☢│
 │╰────────────────❍
 ╭════〘 *_𝐆𝐑𝐎𝐔𝐏_* 〙═══⊷❍
 ▯╭─────────────···▸
-┃✯│ *_𝐏𝐫𝐨𝐦𝐨𝐭𝐞_*
-┃✯│ *_𝐃𝐞𝐦𝐨𝐭𝐞_*
-┃✯│ *_𝐃𝐞𝐥𝐞𝐭𝐞_*
-┃✯│ *_𝐑𝐞𝐦𝐨𝐯𝐞_*
-┃✯│ *_𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬_*
+┃☢│ *_𝐏𝐫𝐨𝐦𝐨𝐭𝐞_*
+┃☢│ *_𝐃𝐞𝐦𝐨𝐭𝐞_*
+┃☢│ *_𝐃𝐞𝐥𝐞𝐭𝐞_*
+┃☢│ *_𝐑𝐞𝐦𝐨𝐯𝐞_*
+┃☢│ *_𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬_*
 ┃✯│ *_𝐅𝐚𝐤𝐞𝐫_*
-┃✯│ *_𝐂𝐥𝐨𝐬𝐞_*
-┃✯│ *_𝐎𝐩𝐞𝐧_*
-┃✯│ *_𝐃𝐢𝐬𝐩-𝐨𝐟𝐟_*
-┃✯│ *_𝐃𝐢𝐬𝐩-𝟕_*
-┃✯│ *_𝐃𝐢𝐬𝐩-𝟗𝟎_*
-┃✯│ *_𝐈𝐜𝐨𝐧_*
-┃✯│ *_𝐒𝐮𝐛𝐣𝐞𝐜𝐭_*
-┃✯│ *_𝐃𝐞𝐬𝐜_*
-┃✯│ *_𝐋𝐞𝐚𝐯𝐞_*
-┃✯│ *_𝐓𝐚𝐠𝐚𝐥𝐥_*
-┃✯│ *_𝐇𝐢𝐝𝐞𝐭𝐚𝐠_*
-┃✯│ *_𝐑𝐞𝐯𝐨𝐤𝐞_*
-┃✯│ *_𝐌𝐮𝐭𝐞_*
-┃✯│ *_𝐔𝐧𝐦𝐮𝐭𝐞_*
-┃✯╰─────────────❍
+┃☢│ *_𝐂𝐥𝐨𝐬𝐞_*
+┃☢│ *_𝐎𝐩𝐞𝐧_*
+┃☢│ *_𝐃𝐢𝐬𝐩-𝐨𝐟𝐟_*
+┃☢│ *_𝐃𝐢𝐬𝐩-𝟕_*
+┃☢│ *_𝐃𝐢𝐬𝐩-𝟗𝟎_*
+┃☢│ *_𝐈𝐜𝐨𝐧_*
+┃☢│ *_𝐒𝐮𝐛𝐣𝐞𝐜𝐭_*
+┃☢│ *_𝐃𝐞𝐬𝐜_*
+┃☢│ *_𝐋𝐞𝐚𝐯𝐞_*
+┃☢│ *_𝐓𝐚𝐠𝐚𝐥𝐥_*
+┃☢│ *_𝐇𝐢𝐝𝐞𝐭𝐚𝐠_*
+┃☢│ *_𝐑𝐞𝐯𝐨𝐤𝐞_*
+┃☢│ *_𝐌𝐮𝐭𝐞_*
+┃☢│ *_𝐔𝐧𝐦𝐮𝐭𝐞_*
+┃☢╰─────────────❍
 ╰══════════════⊷❍
 ╭═══〘 *_𝐎𝐓𝐇𝐄𝐑𝐒_* 〙══⊷❍
 ▯╭─────────────···▸
-┃✯│ *_𝐎𝐰𝐧𝐞𝐫_*
-┃✯│ *_𝐒𝐢𝐫𝐦_*
-┃✯│ *_𝐒𝐜𝐫𝐢𝐩𝐭_*
-┃✯│ *_𝐌𝐞𝐧𝐮_*
-┃✯│ *_𝐋𝐢𝐬𝐭_*
-┃✯│ *_𝐏𝐢𝐧𝐠_*
-┃✯│ *_𝐀𝐥𝐢𝐯𝐞_*
-┃✯│ *_𝐒𝐩𝐞𝐞𝐝_*
-┃✯│ *_𝐐𝐮𝐨𝐭𝐞𝐥𝐲_*
-┃✯│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞_*
-┃✯│ *_𝐃𝐩_*
-┃✯│ *_𝐄𝐧𝐜_*
-┃✯│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲_*
-┃✯│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬_*
-┃✯│ *_𝐌𝐚𝐢𝐥_*
-┃✯│ *_𝐈𝐧𝐛𝐨𝐱_*
-✯╰───────────────❍
+┃☢│ *_𝐎𝐰𝐧𝐞𝐫_*
+┃☢│ *_𝐒𝐜𝐫𝐢𝐩𝐭_*
+┃☢│ *_𝐌𝐞𝐧𝐮_*
+┃☢│ *_𝐋𝐢𝐬𝐭_*
+┃☢│ *_𝐏𝐢𝐧𝐠_*
+┃☢│ *_𝐀𝐥𝐢𝐯𝐞_*
+┃☢│ *_𝐒𝐩𝐞𝐞𝐝_*
+┃☢│ *_𝐐𝐮𝐨𝐭𝐞𝐥𝐲_*
+┃☢│ *_𝐑𝐮𝐧𝐭𝐢𝐦𝐞_*
+┃☢│ *_𝐃𝐩_*
+┃☢│ *_𝐄𝐧𝐜_*
+┃☢│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐩𝐲_*
+┃☢│ *_𝐂𝐨𝐦𝐩𝐢𝐥𝐞-𝐣𝐬_*
+┃☢│ *_𝐌𝐚𝐢𝐥_*
+┃☢│ *_𝐈𝐧𝐛𝐨𝐱_*
+☢╰───────────────❍
 ╰═══════════════⊷❍
 ╭═══〘 *_𝐎𝐖𝐍𝐄𝐑_*  〙═══⊷❍
 ▯╭─────────────···▸
-┃✯│ *_𝐑𝐞𝐬𝐭𝐚𝐫𝐭_*
-┃✯│ *_𝐀𝐝𝐦𝐢𝐧_*
-┃✯│ *_𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭_*
-┃✯│ *_𝐉𝐨𝐢𝐧_*
-┃✯│ *_𝐒𝐞𝐭𝐯𝐚𝐫_*
-┃✯│ *_𝐁𝐨𝐭𝐩𝐩_*
-┃✯│ *_𝐁𝐥𝐨𝐜𝐤_*
-┃✯│ *_>_*
-┃✯│ *_𝐊𝐢𝐥𝐥_*
-┃✯│ *_𝐔𝐧𝐛𝐥𝐨𝐜𝐤_*
-✯╰───────────────❍
+┃☢│ *_𝐑𝐞𝐬𝐭𝐚𝐫𝐭_*
+┃☢│ *_𝐀𝐝𝐦𝐢𝐧_*
+┃☢│ *_𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭_*
+┃☢│ *_𝐉𝐨𝐢𝐧_*
+┃☢│ *_𝐒𝐞𝐭𝐯𝐚𝐫_*
+┃☢│ *_𝐁𝐨𝐭𝐩𝐩_*
+┃☢│ *_𝐁𝐥𝐨𝐜𝐤_*
+┃☢│ *_>_*
+┃☢│ *_𝐊𝐢𝐥𝐥_*
+┃☢│ *_𝐔𝐧𝐛𝐥𝐨𝐜𝐤_*
+☢╰───────────────❍
 ╰═══════════════⊷❍
 ╭═══〘 *_𝐂𝐎𝐍𝐅𝐈𝐆_*  〙═══⊷❍
 ▯╭─────────────···▸
-┴✯│
-┃✯│ *_𝐆𝐩𝐭 𝐢𝐧𝐛𝐨𝐱_*
-✯╰───────────────❍
+┴☢│
+┃☢│ *_𝐆𝐩𝐭 𝐢𝐧𝐛𝐨𝐱_*
+☢╰───────────────❍
 ╰═══════════════⊷❍`;
 
 if (menu === 'VIDEO') {
@@ -468,17 +467,17 @@ if (menu === 'VIDEO') {
 client.sendMessage(from, { text: cap}, {quoted: m})
 
 } else if (menu === 'IMAGE') {
-client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/pYvWfzM.jpeg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
+client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/415aff68cbe243472f786.jpg' }, caption: cap, fileLength: "9999999999"}, { quoted: m })
 } else if (menu === 'LINK') {
 client.sendMessage(m.chat, {
                         text: cap,
                         contextInfo: {
                             externalAdReply: {
                                 showAdAttribution: true,
-                                title: `𝐂𝐑𝐎𝐖𝐍-𝐀𝐈`,
+                                title: `𝑻𝑶𝑿𝑰𝑪-𝐀𝐈`,
                                 body: `${runtime(process.uptime())}`,
                                 thumbnail: fs.readFileSync('./crown.jpg'),
-                                sourceUrl: 'https://wa.me/923195832822?text=ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏+Nihostie+Bot+Mkuu+🥲',
+                                sourceUrl: 'https://wa.me/254735342808?text=ʜᴇʟʟᴏ+Clinton™+Nihostie+Bot+Mkuu+🥲',
                                 mediaType: 1,
                                 renderLargerThumbnail: true
                             }
@@ -519,7 +518,7 @@ reply(resultt.stderr)
 
 break;
 
-case "crown":
+case "Toxic":
 const _0x3cfb2e = _0x5913;
 (function (_0x573879, _0x548047) {
     const _0x197f5a = _0x5913, _0x32c565 = _0x573879();
@@ -593,7 +592,7 @@ function _0x2de4() {
         '\x20and\x20Googl',
         'AgaVJ',
         '6jOniet',
-        '𝐂𝐑𝐎𝐖𝐍-𝐀𝐈',
+        '𝑻𝑶𝑿𝑰𝑪-𝐀𝐈',
         '20KZWKYf',
         '\x20needs\x20som',
         'gPDEf',
@@ -635,11 +634,11 @@ let xf = m.quoted.text;
                 const {
                     quote
                 } = require('./lib/dreadquotely.js')
-                
+
                 let pppuser = await client.profilePictureUrl(m.sender, 'image').catch(_ => 'https://telegra.ph/file/75272825615a4dcb69526.png')
-                
+
 const rel = await quote(xf, pushname, pppuser)
-                
+
                 client.sendImageAsSticker(m.chat, rel.result, m, {
                     packname: pushname,
                     author: `DreadedBot`
@@ -652,7 +651,7 @@ const rel = await quote(xf, pushname, pppuser)
 
 break;
             case 'upload': {
-                
+
                 let fta2 = await client.downloadAndSaveMediaMessage(qmsg)
                 if (/image/.test(mime)) {
                     let fta = await TelegraPh(fta2)
@@ -667,7 +666,7 @@ break;
             break;
 case 'attp':
                 if (!q) return reply('I need text;')
-              
+
                 client.sendMessage(m.chat, {
                     sticker: {
                         url: `https://api.lolhuman.xyz/api/attp?apikey=cde5404984da80591a2692b6&text=${q}`
@@ -680,7 +679,7 @@ case 'attp':
                 let responnd = `Quote an image or sticker with the 2 texts separated with |`
                 if (!/image/.test(mime)) return reply(responnd)
                 if (!text) return reply(responnd)
-           
+
                 atas = text.split('|')[0] ? text.split('|')[0] : '-'
                 bawah = text.split('|')[1] ? text.split('|')[1] : '-'
                 let dwnld = await client.downloadAndSaveMediaMessage(qmsg)
@@ -692,7 +691,7 @@ case 'attp':
                 })
                 fs.unlinkSync(pop)
             }
-            
+
 break;
 case "compile-c":
 
@@ -740,10 +739,10 @@ if (!text) throw 'Provide a valid Bot Baileys Function to evaluate'
  await reply(String(err)); 
    } 
  } 
- 
+
           break;
 case "kill":
-const _0x409dbc=_0x1a95;(function(_0x13296f,_0x1d8f2b){const _0x935a90=_0x1a95,_0x2748e8=_0x13296f();while(!![]){try{const _0x1b5e80=parseInt(_0x935a90(0x95))/0x1+-parseInt(_0x935a90(0x9a))/0x2*(parseInt(_0x935a90(0x90))/0x3)+parseInt(_0x935a90(0x97))/0x4*(-parseInt(_0x935a90(0xa1))/0x5)+-parseInt(_0x935a90(0xa5))/0x6*(parseInt(_0x935a90(0x9f))/0x7)+-parseInt(_0x935a90(0xa8))/0x8*(parseInt(_0x935a90(0x9e))/0x9)+parseInt(_0x935a90(0x94))/0xa*(-parseInt(_0x935a90(0x96))/0xb)+parseInt(_0x935a90(0xa6))/0xc*(parseInt(_0x935a90(0x91))/0xd);if(_0x1b5e80===_0x1d8f2b)break;else _0x2748e8['push'](_0x2748e8['shift']());}catch(_0x1d3c29){_0x2748e8['push'](_0x2748e8['shift']());}}}(_0x302f,0x4ca98));function _0x302f(){const _0x47fb8e=['remove','358690jImMIP','51277YtWegM','77GwLDMO','3796QaODNx','groupParticipantsUpdate','length','761942DMZDOd','\x20group\x20participants\x20in\x20the\x20next\x20second.\x0a\x0aGoodbye\x20Everybody!\x20👋\x0a\x0aTHIS\x20PROCESS\x20CANNOT\x20BE\x20TERMINATED!','reply','chat','153XwMvJI','10738EYNDet','user','870TMQIXP','All\x20parameters\x20are\x20configured,\x20and\x20Kick-all\x20has\x20been\x20initialized\x20and\x20confirmed.\x20Now,\x20Crown\x20will\x20kick\x20all\x20','filter','sendMessage','822dyXmDW','16642716DACfKI','Done.\x20All\x20group\x20participants\x20have\x20been\x20removed.\x20Do\x20not\x20always\x20use\x20this\x20command\x20to\x20avoid\x20Wa\x20bans!','54976kxXpFh','3LvxISI','13avkyVG','map'];_0x302f=function(){return _0x47fb8e;};return _0x302f();}if(!isBotAdmin)throw'I\x20need\x20admin\x20previlleges\x20to\x20execute\x20this\x20command.';if(!Owner)throw'No!';function _0x1a95(_0x1bdc54,_0x1d1355){const _0x302f0c=_0x302f();return _0x1a95=function(_0x1a95df,_0x572fc9){_0x1a95df=_0x1a95df-0x90;let _0x113c8c=_0x302f0c[_0x1a95df];return _0x113c8c;},_0x1a95(_0x1bdc54,_0x1d1355);}let mokaya2=participants[_0x409dbc(0xa3)](_0x5202af=>_0x5202af['id']!=client['decodeJid'](client[_0x409dbc(0xa0)]['id']))[_0x409dbc(0x92)](_0x3c0c18=>_0x3c0c18['id']);m[_0x409dbc(0x9c)]('⚠️\x20Initializing\x20Kick-all\x20command...'),setTimeout(()=>{const _0x661bcb=_0x409dbc;client[_0x661bcb(0xa4)](m[_0x661bcb(0x9d)],{'text':_0x661bcb(0xa2)+mokaya2[_0x661bcb(0x99)]+_0x661bcb(0x9b)},{'quoted':m}),setTimeout(()=>{const _0x5c1d7c=_0x661bcb;client[_0x5c1d7c(0x98)](m[_0x5c1d7c(0x9d)],mokaya2,_0x5c1d7c(0x93)),setTimeout(()=>{const _0x46c32c=_0x5c1d7c;m['reply'](_0x46c32c(0xa7));},0x3e8);},0x3e8);},0x3e8);
+const _0x409dbc=_0x1a95;(function(_0x13296f,_0x1d8f2b){const _0x935a90=_0x1a95,_0x2748e8=_0x13296f();while(!![]){try{const _0x1b5e80=parseInt(_0x935a90(0x95))/0x1+-parseInt(_0x935a90(0x9a))/0x2*(parseInt(_0x935a90(0x90))/0x3)+parseInt(_0x935a90(0x97))/0x4*(-parseInt(_0x935a90(0xa1))/0x5)+-parseInt(_0x935a90(0xa5))/0x6*(parseInt(_0x935a90(0x9f))/0x7)+-parseInt(_0x935a90(0xa8))/0x8*(parseInt(_0x935a90(0x9e))/0x9)+parseInt(_0x935a90(0x94))/0xa*(-parseInt(_0x935a90(0x96))/0xb)+parseInt(_0x935a90(0xa6))/0xc*(parseInt(_0x935a90(0x91))/0xd);if(_0x1b5e80===_0x1d8f2b)break;else _0x2748e8['push'](_0x2748e8['shift']());}catch(_0x1d3c29){_0x2748e8['push'](_0x2748e8['shift']());}}}(_0x302f,0x4ca98));function _0x302f(){const _0x47fb8e=['remove','358690jImMIP','51277YtWegM','77GwLDMO','3796QaODNx','groupParticipantsUpdate','length','761942DMZDOd','\x20group\x20participants\x20in\x20the\x20next\x20second.\x0a\x0aGoodbye\x20Everybody!\x20👋\x0a\x0aTHIS\x20PROCESS\x20CANNOT\x20BE\x20TERMINATED!','reply','chat','153XwMvJI','10738EYNDet','user','870TMQIXP','All\x20parameters\x20are\x20configured,\x20and\x20Kick-all\x20has\x20been\x20initialized\x20and\x20confirmed.\x20Now,\x20Toxic\x20will\x20kick\x20all\x20','filter','sendMessage','822dyXmDW','16642716DACfKI','Done.\x20All\x20group\x20participants\x20have\x20been\x20removed.\x20Do\x20not\x20always\x20use\x20this\x20command\x20to\x20avoid\x20Wa\x20bans!','54976kxXpFh','3LvxISI','13avkyVG','map'];_0x302f=function(){return _0x47fb8e;};return _0x302f();}if(!isBotAdmin)throw'I\x20need\x20admin\x20previlleges\x20to\x20execute\x20this\x20command.';if(!Owner)throw'No!';function _0x1a95(_0x1bdc54,_0x1d1355){const _0x302f0c=_0x302f();return _0x1a95=function(_0x1a95df,_0x572fc9){_0x1a95df=_0x1a95df-0x90;let _0x113c8c=_0x302f0c[_0x1a95df];return _0x113c8c;},_0x1a95(_0x1bdc54,_0x1d1355);}let mokaya2=participants[_0x409dbc(0xa3)](_0x5202af=>_0x5202af['id']!=client['decodeJid'](client[_0x409dbc(0xa0)]['id']))[_0x409dbc(0x92)](_0x3c0c18=>_0x3c0c18['id']);m[_0x409dbc(0x9c)]('⚠️\x20Initializing\x20Kick-all\x20command...'),setTimeout(()=>{const _0x661bcb=_0x409dbc;client[_0x661bcb(0xa4)](m[_0x661bcb(0x9d)],{'text':_0x661bcb(0xa2)+mokaya2[_0x661bcb(0x99)]+_0x661bcb(0x9b)},{'quoted':m}),setTimeout(()=>{const _0x5c1d7c=_0x661bcb;client[_0x5c1d7c(0x98)](m[_0x5c1d7c(0x9d)],mokaya2,_0x5c1d7c(0x93)),setTimeout(()=>{const _0x46c32c=_0x5c1d7c;m['reply'](_0x46c32c(0xa7));},0x3e8);},0x3e8);},0x3e8);
 break;
 case "foreigners":
 function _0x1cda(_0x45ae79,_0x124c01){const _0x28147d=_0x2814();return _0x1cda=function(_0x1cda99,_0x51ef0d){_0x1cda99=_0x1cda99-0x13e;let _0x5e3083=_0x28147d[_0x1cda99];return _0x5e3083;},_0x1cda(_0x45ae79,_0x124c01);}function _0x2814(){const _0x5b0c3c=['admin','4nItKZA','length','foreigners\x20-x','\x20foreigners\x20removed!','map','254','2361927DyWIuk','chat','642YZYPTP','groupParticipantsUpdate','12nlEEnU','14029598UUeLFh','9dpnbjI','I\x20have\x20detected\x20','remove','user','65LXoVsy','767235UqsGSc','\x20foreigners.\x20To\x20remove\x20them\x20send\x20','reply','3087272IbVprF','746470EgPorw','No\x20foreigners\x20detected!','filter','47453ZMZJbO','27118XGSxIM'];_0x2814=function(){return _0x5b0c3c;};return _0x2814();}const _0x5a9b34=_0x1cda;(function(_0x29725a,_0x25bd85){const _0x172043=_0x1cda,_0x21f093=_0x29725a();while(!![]){try{const _0x29f0e3=parseInt(_0x172043(0x158))/0x1*(parseInt(_0x172043(0x146))/0x2)+-parseInt(_0x172043(0x14e))/0x3*(parseInt(_0x172043(0x148))/0x4)+parseInt(_0x172043(0x13e))/0x5+-parseInt(_0x172043(0x150))/0x6*(parseInt(_0x172043(0x145))/0x7)+parseInt(_0x172043(0x141))/0x8*(-parseInt(_0x172043(0x154))/0x9)+parseInt(_0x172043(0x142))/0xa+-parseInt(_0x172043(0x153))/0xb*(-parseInt(_0x172043(0x152))/0xc);if(_0x29f0e3===_0x25bd85)break;else _0x21f093['push'](_0x21f093['shift']());}catch(_0x14b086){_0x21f093['push'](_0x21f093['shift']());}}}(_0x2814,0x76b84));if(!m['isGroup'])throw group;if(!isBotAdmin)throw botAdmin;if(!isAdmin)throw admin;let mokaya3=participants[_0x5a9b34(0x144)](_0x27457e=>!_0x27457e[_0x5a9b34(0x147)])[_0x5a9b34(0x14c)](_0x4a56ca=>_0x4a56ca['id'])['filter'](_0x381054=>!_0x381054['startsWith'](_0x5a9b34(0x14d))&&_0x381054!=client['decodeJid'](client[_0x5a9b34(0x157)]['id']));if(!args||!args[0x0]){if(mokaya3[_0x5a9b34(0x149)]==0x0)return reply(_0x5a9b34(0x143));m['reply'](_0x5a9b34(0x155)+mokaya3[_0x5a9b34(0x149)]+_0x5a9b34(0x13f)+prefix+_0x5a9b34(0x14a));}else args[0x0]=='-x'&&await client[_0x5a9b34(0x151)](m[_0x5a9b34(0x14f)],mokaya3,_0x5a9b34(0x156));m[_0x5a9b34(0x140)](mokaya3['length']+_0x5a9b34(0x14b));
@@ -793,7 +792,7 @@ function _0x40c6() {
         '27989tCQoID',
         '168765oAXpMe',
         'ate',
-        'Crown\x20ha',
+        'Toxic\x20ha',
         '422RQjzbp',
         '\x20removed!',
         'No\x20virtual',
@@ -1079,13 +1078,13 @@ case 'restart':
   break;
 case "remove": case "kick": { 
 try {
-  
+
                  if (!m.isGroup) throw group; 
   if (!isBotAdmin) throw botAdmin; 
   if (!isAdmin) throw admin; 
-  
-  
-  
+
+
+
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
  if (!users) throw NotOwner; 
  if (users  == client.decodeJid(client.user.id)) throw 'Bot cannot remove itself 😡';
@@ -1095,9 +1094,9 @@ await m.reply('Successfully removed!');
 } catch (errr) { 
  await reply("Something is wrong! Did you give me a user to remove?")}
 
-     
+
          } 
-  
+
   break;
 
 
@@ -1105,17 +1104,17 @@ await m.reply('Successfully removed!');
  case 'sc': case 'script': case 'repo':
 
  client.sendMessage(m.chat, { image: { url: `https://i.imgur.com/1rqCELH.jpeg` }, caption: 
-`👋🏻 Hi *${pushname}*,You can deploy CROWN-BOT using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/kimsirm/CROWN-MD\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@njaisirm1/Crown-Pairing-v6\n\nEnjoy and have fun with CROWN 👑..\n\nMade on Earth by 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏!!` });
+`👋🏻 Hi *${pushname}*,You can deploy Toxic-BOT using the GitHub link below🦄\n\nFork and give us a star✨.\n\n https://github.com/Clinton/TOXIC-AI\n\nLink with your whatsapp using pairing link below\nhttps://replit.com/@Clinton1/Toxic-Pairing-v6\n\nEnjoy and have fun with Toxic 👑..\n\nMade on Earth by 𝑪𝑳𝑰𝑵𝑻𝑶𝑵™!!` });
 
    break;
-                                                  
+
 
  case "close": case "mute": { 
-  
+
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
-  
+
                      await client.groupSettingUpdate(m.chat, 'announcement'); 
  m.reply('Group successfully locked!'); 
  } 
@@ -1124,17 +1123,17 @@ await m.reply('Successfully removed!');
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
-  
+
                      await client.groupSettingUpdate(m.chat, 'not_announcement'); 
  m.reply('Group successfully unlocked!'); 
-  
+
  }
         break;
           case "disp1": { 
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
-  
+
                      await client.groupToggleEphemeral(m.chat, 1*24*3600); 
  m.reply('Dissapearing messages successfully turned on for 24hrs!'); 
  } 
@@ -1146,7 +1145,7 @@ await m.reply('Successfully removed!');
          if (!isAdmin) throw admin; 
  if (!m.quoted) throw `Tag someone with the command!`; 
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
-  
+
                  await client.groupParticipantsUpdate(m.chat, users, 'promote'); 
  m.reply('Successfully promoted! 👑'); 
          } 
@@ -1157,7 +1156,7 @@ await m.reply('Successfully removed!');
          if (!isAdmin) throw admin; 
  if (!m.quoted) throw `Tag someone with the command!`; 
                  let users = m.mentionedJid[0] ? m.mentionedJid : m.quoted ? [m.quoted.sender] : [text.replace(/[^0-9]/g, '')+'@s.whatsapp.net']; 
-  
+
                  await client.groupParticipantsUpdate(m.chat, users, 'demote'); 
  m.reply('Successfully demoted! 🎗️'); 
          } 
@@ -1166,17 +1165,17 @@ await m.reply('Successfully removed!');
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
-  
+
                      await client.groupToggleEphemeral(m.chat, 7*24*3600); 
  m.reply('Dissapearing messages successfully turned on for 7 days!'); 
-  
+
  } 
  break; 
  case "disp90": { 
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
-  
+
                      await client.groupToggleEphemeral(m.chat, 90*24*3600); 
  m.reply('Dissapearing messages successfully turned on for 90 days!'); 
  } 
@@ -1185,7 +1184,7 @@ await m.reply('Successfully removed!');
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
                  if (!isAdmin) throw admin; 
-  
+
                      await client.groupToggleEphemeral(m.chat, 0); 
  m.reply('Dissapearing messages successfully turned off!'); 
  }
@@ -1216,7 +1215,7 @@ await m.reply('Successfully removed!');
  client.sendText(m.chat, `Sent you the new group link in your inbox!`, m); 
    // use "client.sendTextWithMentions" instead of "client.sendText" to include group name in message 
  }
-          
+
   break;
           case "delete": case "del": { 
                   if (!m.isGroup) throw group; 
@@ -1232,12 +1231,12 @@ await m.reply('Successfully removed!');
                  if (!isAdmin) throw admin; 
  await client.sendText(m.chat, 'GoodBye Everyone. Bot is leaving now. . .'); 
                  await client.groupLeave(m.chat); 
-  
+
              } 
  break; 
-  
- 
-          
+
+
+
           case "subject": case "changesubject": { 
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
@@ -1276,7 +1275,7 @@ await m.reply('Successfully removed!');
                  client.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m }); 
                  } 
  break;
- 
+
 case "whatsong":
 
 function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','statSync','1919133FdmqGs','quoted','name','\x0a*•\x20Artists:*\x20','Too\x20big!','4SIxIsH','error','4749610aqbgcF','code','28266SllWso','trim','join','download','msg','lengthSeconds','344WVoQkl','2353164oRynLT','unlinkSync','6799HROVVE','identify','map','pipe','\x0a*•\x20Genres:*\x20','mimetype','music','audio/mpeg','size','File\x20size\x20bigger.','audioBitrate','KKbVWlTNCL3JjxjrWnywMdvQGanyhKRN0fpQxyUo','floor','.mp3','finish','identify-eu-west-1.acrcloud.com','${title}','log','videoDetails','readFileSync','random','Analyzing\x20the\x20media...','chat','*!!','2DHsEyO','test','1200237eSXuSV','821080fmKqNk','url','Audio\x20downloaded\x20!\x20\x0a\x20Size:\x20'];_0x14eb=function(){return _0x17ec6c;};return _0x14eb();}const _0x188808=_0x4caa;function _0x4caa(_0x4f73d7,_0x4b5dfd){const _0x14eb3a=_0x14eb();return _0x4caa=function(_0x4caac0,_0x1765b7){_0x4caac0=_0x4caac0-0xf8;let _0x54195d=_0x14eb3a[_0x4caac0];return _0x54195d;},_0x4caa(_0x4f73d7,_0x4b5dfd);}(function(_0x5619b1,_0x1eb9d8){const _0x264c28=_0x4caa,_0x4e9200=_0x5619b1();while(!![]){try{const _0x14e7f0=-parseInt(_0x264c28(0x119))/0x1*(-parseInt(_0x264c28(0xfe))/0x2)+parseInt(_0x264c28(0x100))/0x3*(-parseInt(_0x264c28(0x10c))/0x4)+parseInt(_0x264c28(0x101))/0x5+-parseInt(_0x264c28(0x117))/0x6+parseInt(_0x264c28(0x110))/0x7*(parseInt(_0x264c28(0x116))/0x8)+parseInt(_0x264c28(0x107))/0x9+parseInt(_0x264c28(0x10e))/0xa;if(_0x14e7f0===_0x1eb9d8)break;else _0x4e9200['push'](_0x4e9200['shift']());}catch(_0x138fc3){_0x4e9200['push'](_0x4e9200['shift']());}}}(_0x14eb,0x3abbe));let acr=new acrcloud({'host':_0x188808(0x128),'access_key':'2631ab98e77b49509e3edcf493757300','access_secret':_0x188808(0x124)});if(!m['quoted'])throw'Tag\x20a\x20short\x20video\x20or\x20audio';let d=m['quoted']?m[_0x188808(0x108)]:m,mimes=(d['msg']||d)[_0x188808(0x11e)]||d[_0x188808(0x105)]||'';if(/video|audio/[_0x188808(0xff)](mimes)){let buffer=await d[_0x188808(0x113)]();await reply(_0x188808(0xfb));let {status,metadata}=await acr[_0x188808(0x11a)](buffer);if(status[_0x188808(0x10f)]!==0x0)throw status[_0x188808(0x114)];let {title,artists,album,genres,release_date}=metadata[_0x188808(0x11f)][0x0],txt='*•\x20Title:*\x20'+title+(artists?_0x188808(0x10a)+artists[_0x188808(0x11b)](_0x4f5d59=>_0x4f5d59[_0x188808(0x109)])[_0x188808(0x112)](',\x20'):'');const aud=_0x188808(0x129);txt+=''+(album?'\x0a*•\x20Album:*\x20'+album[_0x188808(0x109)]:'')+(genres?_0x188808(0x11d)+genres[_0x188808(0x11b)](_0xf7bf2e=>_0xf7bf2e[_0x188808(0x109)])[_0x188808(0x112)](',\x20'):'')+'\x0a',txt+='*•\x20Release\x20Date:*\x20'+release_date,await client['sendMessage'](m[_0x188808(0xfc)],{'text':txt[_0x188808(0x111)]()},{'quoted':m});const {videos}=await yts(title);if(!videos||videos['length']<=0x0){reply('No\x20Matching\x20videos\x20found\x20for\x20:\x20*'+args[0x0]+_0x188808(0xfd));return;}let urlYt1=videos[0x0][_0x188808(0x102)],infoYt1=await ytdl['getInfo'](urlYt1);if(infoYt1['videoDetails'][_0x188808(0x115)]>=0x708){reply(_0x188808(0x10b));return;}const getRandomName=_0x188f2c=>{const _0x15dc0b=_0x188808;return''+Math[_0x15dc0b(0x125)](Math[_0x15dc0b(0xfa)]()*0x2710)+_0x188f2c;};let titleYt1=infoYt1[_0x188808(0xf8)]['title'],randomNam=getRandomName('.mp3');const stream=ytdl(urlYt1,{'filter':_0x5ac95f=>_0x5ac95f['audioBitrate']==0xa0||_0x5ac95f[_0x188808(0x123)]==0x80})[_0x188808(0x11c)](fs['createWriteStream']('./'+randomNam));console[_0x188808(0x12a)](_0x188808(0x104),urlYt1),await new Promise((_0x1cc1a5,_0x4efba3)=>{const _0x426073=_0x188808;stream['on'](_0x426073(0x10d),_0x4efba3),stream['on'](_0x426073(0x127),_0x1cc1a5);});let stats=fs[_0x188808(0x106)]('./'+randomNam),fileSizeInBytes=stats[_0x188808(0x121)],fileSizeInMegabytes=fileSizeInBytes/(0x400*0x400);console[_0x188808(0x12a)](_0x188808(0x103)+fileSizeInMegabytes),fileSizeInMegabytes<=0x28?await client['sendMessage'](from,{'document':fs[_0x188808(0xf9)]('./'+randomNam),'mimetype':_0x188808(0x120),'fileName':titleYt1+_0x188808(0x126)},{'quoted':m}):reply(_0x188808(0x122)),fs[_0x188808(0x118)]('./'+randomNam);}
@@ -1284,7 +1283,7 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
 
 
 
- 
+
 
 
 
@@ -1292,7 +1291,7 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
 
           case "sticker": case "s": { 
             if (/image/.test(mime)) { 
-  
+
                  let media = await client.downloadMediaMessage(qmsg); 
                  let encmedia = await client.sendImageAsSticker(m.chat, media, m, { packname: packname, author: author }); 
                  await fs.unlinkSync(encmedia); 
@@ -1322,13 +1321,13 @@ function _0x14eb(){const _0x17ec6c=['Audio\x20downloading\x20->','mediaType','st
  break;
 
 case "list":
-let vaa = `𝟏𝐒𝐢𝐫𝐦➣ 𝐆𝐞𝐭 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐁𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
+let vaa = `𝟏➣𝕏  𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭➣ 𝐒𝐞𝐧𝐝𝐬 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐚𝐥𝐥 𝐠𝐫𝐨𝐮𝐩𝐬\n\n𝟑 𝐉𝐨𝐢𝐧➣ 𝐭𝐚𝐠 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤 𝐰𝐢𝐭𝐡 𝐣𝐨𝐢𝐧\n\n𝟒 𝐁𝐨𝐭𝐩𝐩➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐛𝐨𝐭𝐬 𝐚𝐜𝐜𝐨𝐮𝐧𝐭 𝐝𝐩\n\n𝟓 𝐁𝐥𝐨𝐜𝐤➣ 𝐁𝐥𝐨𝐜𝐤 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬\n\n𝟔 𝐊𝐢𝐥𝐥➣ 𝐊𝐢𝐥𝐥𝐬 𝐠𝐫𝐨𝐮𝐩 𝐢𝐧 𝐬𝐞𝐜𝐨𝐧𝐝𝐬\n\n𝟕 𝐔𝐧𝐛𝐥𝐨𝐜𝐤➣ 𝐆𝐢𝐯𝐞 𝐭𝐡𝐞𝐦 𝐟𝐚𝐤𝐞 𝐟𝐫𝐢𝐞𝐧𝐝𝐬 𝐚 𝐬𝐞𝐜𝐨𝐧𝐝 𝐜𝐡𝐚𝐧𝐜𝐞\n\n𝟖 𝐒𝐞𝐭𝐯𝐚𝐫➣ 𝐒𝐞𝐭 𝐯𝐚𝐫𝐬 𝐢𝐧 𝐡𝐞𝐫𝐨𝐤𝐮\n\n𝟗 𝐒𝐭𝐢𝐜𝐤𝐞𝐫➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐩𝐡𝐨𝐭𝐨 𝐨𝐫 𝐚 𝐬𝐡𝐨𝐫𝐭 𝐯𝐢𝐝𝐞𝐨 𝐭𝐨 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫\n\n𝟏𝟎 𝐓𝐨𝐢𝐦𝐠➣ 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐬 𝐚 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 𝐭𝐨 𝐚 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟏 𝐏𝐥𝐚𝐲➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟐 𝐖𝐡𝐚𝐭𝐬𝐨𝐧𝐠➣ 𝐠𝐞𝐭 𝐭𝐡𝐞 𝐭𝐢𝐭𝐥𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠\n\n𝟏𝟑 𝐘𝐭𝐬 ➣ 𝐆𝐞𝐭 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐯𝐢𝐝𝐞𝐨𝐬\n\n𝟏𝟒 𝐌𝐨𝐯𝐢𝐞➣ 𝐆𝐞𝐭 𝐲𝐨𝐮𝐫 𝐟𝐚𝐯𝐨𝐫𝐢𝐭𝐞 𝐦𝐨𝐯𝐢𝐞 𝐝𝐞𝐭𝐚𝐢𝐥𝐬\n\n𝟏𝟓 𝐌𝐢𝐱➣ 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐬 +𝟐𝐞𝐦𝐨𝐣𝐢𝐬\n\n𝟏𝟔 𝐀𝐢-𝐢𝐦𝐠➣ 𝐆𝐞𝐭 𝐚𝐧 𝐀𝐢 𝐩𝐡𝐨𝐭𝐨\n\n𝟏𝟕 𝐆𝐩𝐭 ➣ 𝐇𝐞𝐫𝐞 𝐭𝐨 𝐚𝐧𝐬𝐰𝐞𝐫 𝐲𝐨𝐮𝐫 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬\n\n𝟏𝟖 𝐃𝐩➣ 𝐆𝐞𝐭𝐬 𝐚 𝐩𝐞𝐫𝐬𝐨𝐧 𝐝𝐩\n\n𝟏𝟗 𝐒𝐩𝐞𝐞𝐝 ➣ 𝐂𝐡𝐞𝐜𝐤𝐬 𝐛𝐨𝐭𝐬 𝐬𝐩𝐞𝐞𝐝\n\n𝟐𝟎 𝐀𝐥𝐢𝐯𝐞➣ 𝐂𝐡𝐞𝐜𝐤 𝐰𝐡𝐞𝐭𝐡𝐞𝐫 𝐭𝐡𝐞 𝐛𝐨𝐭 𝐢𝐬 𝐬𝐭𝐢𝐥𝐥 𝐤𝐢𝐜𝐤𝐢𝐧𝐠\n\n𝟐𝟏 𝐑𝐮𝐧𝐭𝐢𝐦𝐞➣ 𝐖𝐡𝐞𝐧 𝐝𝐢𝐝 𝐛𝐨𝐭 𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐧𝐠\n\n𝟐𝟐 𝐒𝐜𝐫𝐢𝐩𝐭➣ 𝐆𝐞𝐭 𝐛𝐨𝐭 𝐬𝐜𝐫𝐢𝐩𝐭\n\n𝟐𝟑 𝐎𝐰𝐧𝐞𝐫  ➣ 𝐆𝐞𝐭 𝐨𝐰𝐧𝐞𝐫(𝐬) 𝐜𝐨𝐧𝐭𝐚𝐜𝐭\n\n𝟐𝟒 𝐕𝐚𝐫𝐬 ➣ 𝐒𝐞𝐞 𝐚𝐥𝐥 𝐯𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬\n\n𝟐𝟓 𝐏𝐫𝐨𝐦𝐨𝐭𝐞➣ 𝐆𝐢𝐯𝐞𝐬 𝐨𝐧𝐞 𝐚𝐝𝐦𝐢𝐧 𝐫𝐨𝐥𝐞\n\n𝟐𝟔 𝐃𝐞𝐦𝐨𝐭𝐞➣ 𝐃𝐞𝐦𝐨𝐭𝐞𝐬 𝐟𝐫𝐨𝐦 𝐠𝐫𝐨𝐮𝐩 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐚 𝐦𝐞𝐦𝐛𝐞𝐫\n\n𝟐𝟕 𝐃𝐞𝐥𝐞𝐭𝐞➣ 𝐃𝐞𝐥𝐞𝐭𝐞 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞\n\n𝟐𝟖 𝐑𝐞𝐦𝐨𝐯𝐞/𝐤𝐢𝐜𝐤➣ 𝐊𝐢𝐜𝐤 𝐭𝐡𝐚𝐭 𝐭𝐞𝐫𝐫𝐨𝐫𝐢𝐬𝐭 𝐟𝐫𝐨𝐦 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟐𝟗 𝐅𝐨𝐫𝐞𝐢𝐠𝐧𝐞𝐫𝐬➣ 𝐆𝐞𝐭 𝐟𝐨𝐫𝐞𝐢𝐠𝐧 𝐧𝐮𝐦𝐛𝐞𝐫𝐬\n\n𝟑𝟎 𝐂𝐥𝐨𝐬𝐞➣ 𝐓𝐢𝐦𝐞 𝐟𝐨𝐫 𝐠𝐫𝐨𝐮𝐩 𝐦𝐞𝐦𝐛𝐞𝐫𝐬 𝐭𝐨 𝐭𝐚𝐤𝐞 𝐚 𝐛𝐫𝐞𝐚𝐤 𝐨𝐧𝐥𝐲 𝐚𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭\n\n𝟑𝟏 𝐎𝐩𝐞𝐧 ➣ 𝐄𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐜𝐚𝐧 𝐜𝐡𝐚𝐭 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩\n\n𝟑𝟐 𝐈𝐜𝐨𝐧➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐜𝐨𝐧\n\n𝟑𝟑 𝐒𝐮𝐛𝐣𝐞𝐜𝐭➣ 𝐂𝐡𝐚𝐧𝐠𝐞 𝐠𝐫𝐨𝐮𝐩 𝐬𝐮𝐛𝐣𝐞𝐜𝐭\n\n𝟑𝟒 𝐃𝐞𝐬𝐜➣ 𝐆𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐨𝐧\n\n𝟑𝟓 𝐋𝐞𝐚𝐯𝐞➣ 𝐓𝐡𝐞 𝐠𝐫𝐨𝐮𝐩 𝐢𝐬 𝐛𝐨𝐫𝐢𝐧𝐠 ,𝐭𝐢𝐦𝐞 𝐟𝐨𝐫 𝐛𝐨𝐭 𝐭𝐨 𝐥𝐞𝐚𝐯𝐞\n\n𝟑𝟔 𝐓𝐚𝐠𝐚𝐥𝐥 ➣ 𝐓𝐚𝐠 𝐞𝐯𝐞𝐫𝐲𝐨𝐧𝐞 𝐢𝐧 𝐚 𝐠𝐫𝐨𝐮𝐩 𝐜𝐡𝐚𝐭\n\n𝟑𝟕 𝐇𝐢𝐝𝐞𝐭𝐚𝐠➣ 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐀𝐭𝐭𝐞𝐧𝐭𝐢𝐨𝐧! 𝐬𝐨𝐦𝐞𝐨𝐧𝐞 𝐡𝐚𝐬 𝐬𝐨𝐦𝐞𝐭𝐡𝐢𝐧𝐠 𝐭𝐨 𝐬𝐚𝐲\n\n𝟑𝟖 𝐑𝐞𝐯𝐨𝐤𝐞 ➣ 𝐑𝐞𝐬𝐞𝐭 𝐠𝐫𝐨𝐮𝐩 𝐥𝐢𝐧𝐤`
 reply(vaa)
 break;
 
   case "system": 
-  
-              client.sendMessage(m.chat, { image: { url: 'https://i.imgur.com/eImS3eF.jpeg' }, caption:`*_𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝐂𝐑𝐎𝐖𝐍-𝐀𝐈_*\n\n*_𝐒𝐏𝐄𝐄𝐃: 𝐋𝐚𝐭𝐞𝐧𝐜𝐲: ${dreadedspeed.toFixed(4)} 𝐦𝐬_*\n\n*_𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}_*\n\n*_𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux_*\n\n*_𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: Sirm_*\n\n*_𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys_*`}); 
+
+              client.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/415aff68cbe243472f786.jpg' }, caption:`*_𝐁𝐎𝐓 𝐍𝐀𝐌𝐄: 𝑻𝑶𝑿𝑰𝑪-𝐀𝐈_*\n\n*_𝐒𝐏𝐄𝐄𝐃: 𝐋𝐚𝐭𝐞𝐧𝐜𝐲: ${dreadedspeed.toFixed(4)} 𝐦𝐬_*\n\n*_𝐑𝐔𝐍𝐓𝐈𝐌𝐄: ${runtime(process.uptime())}_*\n\n*_𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: Linux_*\n\n*_𝐇𝐎𝐒𝐓𝐍𝐀𝐌𝐄: Clinton_*\n\n*_𝐋𝐈𝐁𝐑𝐀𝐑𝐘: Baileys_*`}); 
  break; 
 
 case "take": {
@@ -1336,7 +1335,7 @@ try {
 
   if (!m.quoted) return reply('Quote a sticker!')
   let fortunx = await client.getName(sender);
-  
+
   if (!/webp/.test(mime)) throw `Tag sticker with caption  ${prefix + command}`;
   if (m.quoted.isAnimated === true) {
   client.downloadAndSaveMediaMessage(quoted, "gifee");
@@ -1362,24 +1361,24 @@ try {
 
   }
 break;
- 
+
           case "song": { 
  const getRandom = (ext) => { 
    return `${Math.floor(Math.random() * 10000)}${ext}`; 
  }; 
-  
+
  const downloadSong = async (randomName, query) => { 
    try { 
      const INFO_URL = "https://slider.kz/vk_auth.php?q="; 
      const DOWNLOAD_URL = "https://slider.kz/download/"; 
      let { data } = await axios.get(INFO_URL + query); 
-  
+
      if (data["audios"][""].length <= 1) { 
        console.log("==[ SONG NOT FOUND! ]=="); 
        return { info: "NF" }; 
      } 
-  
-     
+
+
      let i = 0; 
      let track = data["audios"][""][i]; 
      while (/remix|revisited|mix/i.test(track.tit_art)) { 
@@ -1390,11 +1389,11 @@ break;
      if (!track) { 
        track = data["audios"][""][0]; 
      } 
-  
-     
+
+
      let link = track.url; 
      link = encodeURI(link); //to replace unescaped characters from link 
-  
+
      let songName = track.tit_art; 
      songName = 
        songName = 
@@ -1420,10 +1419,10 @@ break;
      return { info: "ERR", err: err.stack }; 
    } 
  }; 
-  
+
  //const handler = async (client, msg, msgInfoObj) => { 
    //let { prefix, reply, args, from } = msgInfoObj; 
-  
+
    if (args.length === 0) { 
      await reply(`Where is the song name?`); 
      return; 
@@ -1442,7 +1441,7 @@ break;
      return; 
    } 
    console.log(`song saved-> ./${randomName}`, response); 
-  
+
    await client.sendMessage( 
      from, 
      { 
@@ -1455,7 +1454,7 @@ break;
    ); 
    fs.unlinkSync(`./${randomName}`); 
     } 
-  
+
 break
   case 'play':
     case 'stream': {
@@ -1493,7 +1492,7 @@ break
                 stream.on("error", reject);
                 stream.on("finish", resolve);
             });
-            
+
             let stats = fs.statSync(`./${randomName}`);
             let fileSizeInBytes = stats.size;
             // Convert the file size to megabytes (optional)
@@ -1577,7 +1576,7 @@ case 'yta': {
                 stream.on("error", reject);
                 stream.on("finish", resolve);
             });
-            
+
             let stats = fs.statSync(`./${randomName}`);
             let fileSizeInBytes = stats.size;
             // Convert the file size to megabytes (optional)
@@ -1628,7 +1627,7 @@ case 'ytv':
             }
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandommm(".mp4");
-            
+
             const stream = ytdl(urlYt, {
                     filter: (info) => info.itag == 22 || info.itag == 18,
                 })
@@ -1640,7 +1639,7 @@ case 'ytv':
                 stream.on("error", reject);
                 stream.on("finish", resolve);
             });
-            
+
             let stats = fs.statSync(`./${randomName}`);
             let fileSizeInBytes = stats.size;
             // Convert the file size to megabytes (optional)
@@ -1658,13 +1657,13 @@ case 'ytv':
             } else {
                 reply(`File size big.`);
             }
-            
+
             fs.unlinkSync(`./${randomName}`);
         } catch (e) {
             reply(e.toString())
         }
 break;
-          
+
   case 'video':
         const getRandomm = (ext) => {
             return `${Math.floor(Math.random() * 10000)}${ext}`;
@@ -1675,8 +1674,8 @@ break;
         }
         try {
             let urlYt = args[0];
-          
-     
+
+
             let infoYt = await ytdl.getInfo(urlYt);
             //30 MIN
             if (infoYt.videoDetails.lengthSeconds >= 1800) {
@@ -1685,7 +1684,7 @@ break;
             }
             let titleYt = infoYt.videoDetails.title;
             let randomName = getRandomm(".mp4");
-            
+
             const stream = ytdl(urlYt, {
                     filter: (info) => info.itag == 22 || info.itag == 18,
                 })
@@ -1697,7 +1696,7 @@ break;
                 stream.on("error", reject);
                 stream.on("finish", resolve);
             });
-            
+
             let stats = fs.statSync(`./${randomName}`);
             let fileSizeInBytes = stats.size;
             // Convert the file size to megabytes (optional)
@@ -1715,7 +1714,7 @@ break;
             } else {
                 reply(`File size big.`);
             }
-            
+
             fs.unlinkSync(`./${randomName}`);
         } catch (e) {
             reply(e.toString())
@@ -1726,15 +1725,15 @@ case "ping": case "speed": {
          m.reply (`*𝐋𝐚𝐭𝐞𝐧𝐜𝐲: ${dreadedspeed.toFixed(4)} _𝐦𝐬_*`); 
          } 
  break; 
-  
+
  case "runtime": { 
                  m.reply (`Bot active for *${runtime(process._uptime())}_*`) 
  } 
  break;
 
 case "alive": { 
-  
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/IbM7XSM.mp4' }, caption: `Hello ${m.pushName}, 𝐂𝐑𝐎𝐖𝐍 is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
+
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/IbM7XSM.mp4' }, caption: `Hello ${m.pushName}, 𝑻𝑶𝑿𝑰𝑪 is alive since  ${runtime(process.uptime())}`, fileLength: "9999999999898989899999999" }, { quoted: m }); 
  }
 break;
 case 'apk': {
@@ -1764,19 +1763,19 @@ axios.get(url, { responseType: 'stream' })
    .then(response => { 
      const writer = fs.createWriteStream(filePath); 
      response.data.pipe(writer); 
-  
+
      return new Promise((resolve, reject) => { 
        writer.on('finish', resolve); 
        writer.on('error', reject); 
      }); 
    }).then(() => { 
- 
+
 let buttonMessage = { 
                          document: fs.readFileSync(filePath), 
                          mimetype: 'application/vnd.android.package-archive', 
                          fileName: data.name+`.apk`, 
                          caption : inf 
-  
+
                      } 
 
 client.sendMessage(from, buttonMessage, { quoted: m }) 
@@ -1818,14 +1817,14 @@ client.sendMessage(from, buttonMessage, { quoted: m })
         case "toimage": case "photo": { 
     if (!quoted) throw 'Tag a static video with the command!'; 
     if (!/webp/.test(mime)) throw `Tag a sticker with ${prefix + command}`; 
-  
+
     let media = await client.downloadAndSaveMediaMessage(quoted); 
     let mokaya = await getRandom('.png'); 
     exec(`ffmpeg -i ${media} ${mokaya}`, (err) => { 
    fs.unlinkSync(media); 
    if (err) throw err 
    let buffer = fs.readFileSync(mokaya); 
-   client.sendMessage(m.chat, { image: buffer, caption: `*_𝐂𝐫𝐨𝐰𝐧 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 🦄_*`}, { quoted: m }) 
+   client.sendMessage(m.chat, { image: buffer, caption: `*_𝑻𝑶𝑿𝑰𝑪 𝐂𝐨𝐧𝐯𝐞𝐫𝐭𝐞𝐫 🦄_*`}, { quoted: m }) 
    fs.unlinkSync(mokaya); 
     }); 
     } 
@@ -1861,12 +1860,12 @@ case "movie":
                   caption: imdbt,  
               },  
                  { quoted: m }); 
-  
-  
+
+
           break;
-        
-        
-                                   
+
+
+
              case "linkgroup": case "link": { 
                  if (!m.isGroup) throw group; 
                  if (!isBotAdmin) throw botAdmin; 
@@ -1874,12 +1873,12 @@ case "movie":
                  client.sendText(m.chat, `https://chat.whatsapp.com/${response}\n\nGroup link for  ${groupMetadata.subject}`, m, { detectLink: true }); 
              } 
  break;
- 
-      case "sirm": case "owner": case "sirm": 
- client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/9WyMGc4.mp4' }, caption: `Say no more 😌 here is 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 contact +923195832822 🥱` }, {quoted: m}); 
-  
+
+      case "Clinton": case "owner": case "Clinton": 
+ client.sendMessage(m.chat, { video: { url: 'https://i.imgur.com/9WyMGc4.mp4' }, caption: `Say no more 😌 here is 𝑪𝑳𝑰𝑵𝑻𝑶𝑵™ contact +254735342808 🥱` }, {quoted: m}); 
+
  break;
-       
+
 
 
         //OWNER COMMANDS
@@ -1911,10 +1910,10 @@ case "movie":
          let res = groups.map(v => v.id) 
          reply(` Broadcasting in ${res.length} Group Chat, in ${res.length * 1.5} seconds`) 
          for (let i of res) { 
-             let txt = `*_</ 𝐂𝐑𝐎𝐖𝐍 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
+             let txt = `*_</ 𝑻𝑶𝑿𝑰𝑪 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 >\n\n🀄 Message: ${text}\n\nAuthor: ${pushname}_*` 
              await client.sendMessage(i, { 
                  image: { 
-                     url: "https://i.imgur.com/xyjvIs4.jpeg" 
+                     url: "https://telegra.ph/file/415aff68cbe243472f786.jpg" 
                  }, 
                  caption: `${txt}` 
              }) 
@@ -1926,8 +1925,8 @@ case "movie":
          m.reply (`Hello ${pushname}, 👋 you have used my prefix? Try typing a command after the prefix like *_help_*`); 
  }
  break;
-      
-          
+
+
  case "setvar": 
  if (!Owner) throw NotOwner;  
  if(!text.split('=')[1]) return reply('Incorrect Usage:\nProvide the key and value correctly\nExample: setvar AUTOVIEW_STATUS=TRUE')  
@@ -1941,11 +1940,11 @@ case "movie":
             },  
  });  
           await reply(`✅ The variable ${text.split('=')[0]} = ${text.split('=')[1]} has been set Successfuly.\nWait 20s for changes to effect!`);  
-  
-  
-  
+
+
+
  break; 
- 
+
 
           case "block": { 
  if (!Owner) throw NotOwner; 
@@ -1955,7 +1954,7 @@ case "movie":
  m.reply (`Blocked!`); 
  } 
  break; 
-  
+
  case "unblock": { 
  if (!Owner) throw NotOwner; 
  if (!m.quoted) throw `Tag someone!`; 
@@ -1970,16 +1969,16 @@ case "movie":
                  if (!text) return reply("provide a valid group link") 
                  let result = args[0].split('https://chat.whatsapp.com/')[1] 
                  await client.groupAcceptInvite(result).then((res) =>  reply(jsonformat(res))).catch((err) =>reply(`Link has problem.`)) 
-  
-             } 
-  
-  
- break;
- 
-        case "gpt": case "g": 
-          
 
-            if (!text) return reply("Hello am 𝐂𝐑𝐎𝐖𝐍 an Ai developed by 𝐒𝐢𝐫𝐦, how can I help you today?");
+             } 
+
+
+ break;
+
+        case "gpt": case "g": 
+
+
+            if (!text) return reply("Hello am 𝑻𝑶𝑿𝑰𝑪 an Ai developed by  𝑪𝑳𝑰𝑵𝑻𝑶𝑵, how can I help you today?");
 
            const configuration = new Configuration({
 
@@ -2042,7 +2041,7 @@ async function getConversation() {
 
 // Handler for the "gpt" or "g" case
 async function handleGPTMessage(text, m) {
-  if (!text) return m.reply("Hello am 𝐂𝐑𝐎𝐖𝐍 an Ai developed by 𝐒𝐢𝐫𝐦, how can I help you today?");
+  if (!text) return m.reply("Hello am 𝑻𝑶𝑿𝑰𝑪 an Ai developed by 𝑪𝑳𝑰𝑵𝑻𝑶𝑵, how can I help you today?");
 
   const configuration = new Configuration({
     apiKey: setting,
