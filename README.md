@@ -60,7 +60,7 @@ You will need an openai API key for AI features to work.
 
 ## ` Link with WhatsApp`
 
-<a href='https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1' target="_blank"><img alt='SCAN QR-' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
+<a href='https://replit.com/@xhclinton/TOXIC-AI-Pairing-v1' target="_blank"><img alt='SCAN QR-' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
 
 
