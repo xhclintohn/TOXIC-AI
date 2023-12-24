@@ -1,5 +1,5 @@
 { 
-   "name": "DREADED-AI", 
+   "name": "TOXIC-AI", 
    "version": "2.0.0", 
    "description": "WhatsApp Multi Device Bot", 
    "main": "index.js", 
@@ -69,10 +69,10 @@
    }, 
    "repository": { 
      "type": "git", 
-     "url": "git+https://github.com/Fortunatusmokaya/DREADED-AI.git" 
+     "url": "git+https://github.com/xhclintohn/TOXIC-AI.git" 
    }, 
    "bugs": { 
-     "url": "https://github.com/Fortunatusmokaya/DREADED-AI/issues" 
+     "url": "https://github.com/xhclintohn/TOXIC-AI/issues" 
    }, 
-   "homepage": "https://github.com/Fortunatusmokaya/DREADED-AI#readme" 
+   "homepage": "https://github.com/xhclintohn/TOXIC-AI#readme" 
  }
