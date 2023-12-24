@@ -90,9 +90,18 @@ Alternatively, pair locally using the repo [Here](https://github.com/xhclintohn/
     
  
 
-Incase of any issues, contact me  [here](https://wa.me/+254735342808) via WhatsApp or [here](xhclinton@gmail.com) via Email.
+Incase of any issues, contact me
 
-Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
+<p align="center">
+
+<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝘩𝘦𝘭𝘭𝘰+Clinton"><img src="https://img.shields.io/badge/Contact Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
+
+
+
+🄼🄾🄳🄸🄵🅈🄸🄽🄶 🅃🄷🄴 🄱🄾🅃 🅂🅃🅁🅄🄲🅃🅄🅁🄴 🄸🅂 🄰🅃 🅈🄾🅄🅁 🄾🅆🄽 🅁🄸🅂🄺. 🅆🄴 🅆🄾🄽'🅃 🄾🄵🄵🄴🅁 🅃🄴🄲🄷🄽🄸🄲🄰🄻 🅂🅄🄿🄿🄾🅁🅃 🄸🄽 🄲🄰🅂🄴 🄾🄵 🄴🅁🅁🄾🅁🅂 🅁🄴🅂🅄🄻🅃🄸🄽🄶!
+
 
 
 ## License
