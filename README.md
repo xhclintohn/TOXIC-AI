@@ -9,6 +9,25 @@
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=TOXIC-BOT+WHATSAPP+BOT" alt="">
 </p>
+
+
+## ```Connect With Me```
+
+<p align="center">
+
+<a href="https://api.whatsapp.com/send?phone=919931122319&text=𝘩𝘦𝘭𝘭𝘰+𝘮𝘢𝘴𝘵𝘦𝘳"><img src="https://img.shields.io/badge/Contact Ayush-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
+
+
+
+## ```Bot Support Groups```
+<p align="center">
+
+<a href="https://chat.whatsapp.com/FoS7pSPtfMqBuoireK4aAJ"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+
+</p>
+
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-CLINTON-blue.svg?style=for-the-badge&logo=github"></a>
 </p>
