@@ -29,10 +29,7 @@
 </p>
 
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-CLINTON-blue.svg?style=for-the-badge&logo=github"></a>
-</p>
-<p align="center">
-<a href="'https://wa.me/254735342808ʜᴇʟʟᴏ+/CLINTON™ +uko+na+update+yoyote+ya+TOXIC+Bot+Mkuu+🥲'"><img title="Whatsapp" src="'https://wa.me/254735342808ʜᴇʟʟᴏ+CLINTON™ +uko+na+update+ya+TOXIC+Bot+Mkuu+🥲'?color=green&style=flat-square"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-CLINTON-blue.svg?style=for-the-badge&logo git
   
 <a href="https://wa.me/923195832822ʜᴇʟʟᴏ+𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏"><img title="Twitter" src="https://x.com/NSirm5?s=09?color=black&style=flat-square"></a>
 <a href="https://github.com/kimsirm/CROWN-MD/network/members"><img title="Forks" src="https://img.shields.io/github/fork/kimsirm/COWN-MD?color=yellow&style=flat-square"></a>
