@@ -1,6 +1,6 @@
 {
-  "name": "CROWN-MD",
-  "description": "𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 first born",
+  "name": "TOXIC-AI",
+  "description": "Clinton™ ,
   "keywords": [
     "bot",
     "whatsapp",
@@ -14,9 +14,9 @@
     "baileys-md",
     "md-bot"
   ],
-  "website": "https://github.com/kimsirm/CROWN-MD#readme",
-  "repository": "https://github.com/kimsirm/CROWN-MD.git",
-  "logo": "https://i.imgur.com/iSDfKz1.jpeg",
+  "website": "https://github.com/xhclintohn/TOXIC-AI #readme",
+  "repository": "https://github.com/xhclintohn/TOXIC-AI.git",
+  "logo": "https://i.imgur.com/BQav3Gj.jpeg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -25,7 +25,7 @@
 
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 923195832822, 254712624687 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254735342808, 254799283147 ",
       "required": true
     },
     "NOT_OWNER_MSG": {
