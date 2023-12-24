@@ -58,10 +58,13 @@ You will need an openai API key for AI features to work.
 
 
 
-## ` Pair with WhatsApp`
-<h2 align="left">  <a href="https://replit.com/@theofficialbhar/AYUSH-PAIRING"><img src="https://repl.it/badge/github/quiec/whatsasena" />
-</a>
-</h2>
+## ` Link with WhatsApp`
+
+    <br>
+<a href='https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1' target="_blank"><img alt='SCAN QR-2' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
+
+
+
 
 ## 
 - After you getting the `creds.json. ` then upload the `creds.json` in the `./dreaded1` folder. then you can deploy on your favourite platform by connecting your fork.
