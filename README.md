@@ -35,7 +35,7 @@
 </p>
 
 
-***Made on Earth by 𝐈𝐭𝐬_𝐒𝐢𝐫𝐦™𝕏 🦄***
+***Made on Earth by 𝐂𝐋𝐈𝐍𝐓𝐎𝐍™ 🦄***
 
 
 ***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
@@ -45,17 +45,26 @@ This is a highly customisable simple whatsapp bot with group management features
 
 You will need an openai API key for AI features to work.
 
-# SET-UP
-
-Linking/Pairing:
 
 
-## ` Pair On reptil`
-<h2 align="left">  <a href="https://replit.com/@njaisirm1/Crown-Pairing-v6"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+
+# Setup For Deployment 👇
+
+1. - FORK THE REPOSITORY [Here](https://github.com/xhclintohn/TOXIC-AI/fork)
+
+
+## ` Pair with WhatsApp`
+<h2 align="left">  <a href="https://replit.com/@theofficialbhar/AYUSH-PAIRING"><img src="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
 
-Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusmokaya/DREADED-PAIRING)
+## 
+- After you getting the `creds.json. ` then upload the `creds.json` in the `./dreaded1` folder. then you can deploy on your favourite platform by connecting your fork.
+
+
+
+
+Alternatively, pair locally using the repo [Here](https://github.com/xhclintohn/TOXIC-PAIRING)
 
     
 <h2 align="center">   
@@ -63,33 +72,25 @@ Alternatively, pair locally using the repo [Here](https://github.com/Fortunatusm
 
 
     
-<h2 align="center">   
-
-- Fork this repo by tapping  [here](https://github.com/kimsirm/CROWN-MD/fork)
 
 
-- Upload the creds.json that you received to the dreaded1 folder.
 
-- Connect your fork to any suitable cloud host and deploy.
 
-- Add the environmental variables in .env into your hosting site for bot to work.
-</h2>
+
  
      
 
     
  
 
-
-
-Incase of any issues, contact me  [here](https://wa.me/+923195832822) via WhatsApp or [here](sirmnjai@gmail.com) via Email.
+Incase of any issues, contact me  [here](https://wa.me/+254735342808) via WhatsApp or [here](xhclinton@gmail.com) via Email.
 
 Modifying the bot structure is at your own risk. We won't offer technical support in case of errors resulting!
 
 
 ## License
 
-[MIT License](https://https://github.com/kimsirm/CROWN-MD/blob/main/LICENSE)
+[MIT License](https://https://github.com/xhclintohn/TOXIC-AI/blob/main/LICENSE)
 
-Copyright (c) 2023 CROWN-MD
+Copyright (c) 2023 TOXIC-AI
 
