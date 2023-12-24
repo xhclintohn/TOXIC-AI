@@ -54,14 +54,13 @@ You will need an openai API key for AI features to work.
 
 1. Fork the repo
     <br>
-<a href="https://github.com/xhclintohn/TOXIC-AI/fork"><img title="XLICON-1.0" src="https://img.shields.io/badge/FORK XLICON-1.0-h?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https://github.com/xhclintohn/TOXIC-AI/fork"><img title="TOXIC-AI" src="https://img.shields.io/badge/FORK TOXIC-1-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
 
 ## ` Link with WhatsApp`
 
-    <br>
-<a href='https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1' target="_blank"><img alt='SCAN QR-2' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
+<a href='https://replit.com/@ahil15/XLICON-MD-QR-V4?v=1' target="_blank"><img alt='SCAN QR-' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
 
 
 
