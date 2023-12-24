@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/Maher-Zubair"><img title="Owner" src="https://img.shields.io/badge/Owner-Maher Zubair-black.svg?style=for-the-badge&logo=github" width="173px" height="29"></a>
+<a href="https://github.com/xhclintohn"><img title="DEVELOPER" src="https://img.shields.io/badge/Owner-Clinton-black.svg?style=for-the-badge&logo=github" width="173px" height="29"></a>
 
 
 ## ```Connect With Me```
