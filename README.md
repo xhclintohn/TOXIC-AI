@@ -48,9 +48,14 @@ You will need an openai API key for AI features to work.
 
 
 
-# Setup For Deployment 👇
 
-1. - FORK THE REPOSITORY [Here](https://github.com/xhclintohn/TOXIC-AI/fork)
+    
+## `Installation` 📲
+
+1. Fork the repo
+    <br>
+<a href="https://github.com/xhclintohn/TOXIC-AI/fork"><img title="XLICON-1.0" src="https://img.shields.io/badge/FORK XLICON-1.0-h?color=black&style=for-the-badge&logo=stackshare"></a>
+
 
 
 ## ` Pair with WhatsApp`
