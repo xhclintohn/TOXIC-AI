@@ -1,24 +1,24 @@
-## TOXIC-AI
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=WELCOME TO+TOXIC AI🤖;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+CLINTON;PUBLIC+RELESED; ...;TEAM TOXIC®." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+BLADE-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
   </p>
-  
-<p align="center">
-<img src="https://telegra.ph/file/415aff68cbe243472f786.jpg" width="300" height="300"/>
-</p>
-<p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=TOXIC-BOT+WHATSAPP+BOT" alt="">
-</p>
+  <p align="center"> 
+  <a href="https://github.com/xhclintohn/Toxic-MD/stargazers">
+    <img src="https://img.shields.io/github/stars/xhclintohn/Toxic-MD?style=social">
 
-<p align="center">
-<a href="https://github.com/xhclintohn"><img title="DEVELOPER" src="https://img.shields.io/badge/Owner-Clinton-black.svg?style=for-the-badge&logo=github" width="173px" height="29"></a>
 
+<p align="center"> 
+  Hi there, I am "Toxic md" a WhatsApp bot made by Clinton to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+</p>
+</br>
+
+### ✧✧ This bot is still under development so if you want to recode/modify it, pls check this main repo once in 3 days because i am continuously debugging it and making major changes in it.
+</br>
 
 ## ```Connect With Me```
 
 <p align="center">
 
-<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝘩𝘦𝘭𝘭𝘰+Clinton"><img src="https://img.shields.io/badge/Contact Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝘩𝘦𝘭𝘭𝘰+Clinton"><img src="https://img.shields.io/badge/Contact dev Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
@@ -27,89 +27,50 @@
 ## ```Bot Support Groups```
 <p align="center">
 
-<a href="https://chat.whatsapp.com/I0OrRfICxm3LHVyXMJx2BE"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://chat.whatsapp.com/FoS7pSPtfMqBuieK4aAJ"><img src="https://img.shields.io/badge/Join support group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 </p>
 
-<a href="https://github.com/owlai01/CROWN-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/kimsirm/CROWN-MD?label=Watchers&color=red&style=flat-square"></a>
-<a href="https://github.com/kimsirm/CROWN-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/owlai01/Owl-Ai/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/xhclintohn/TOXIC-AI/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
-</p>
+
+# Setup For Deployment 
+
+- FORK THE REPOSITORY
+   <br>
+<a href="https://github.com/xhclintohn/TOXIC-AI/fork"><img title="Toxic-MD" src="https://img.shields.io/badge/FORK TOXIC-1-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
 
-***Made on Earth by 𝐂𝐋𝐈𝐍𝐓𝐎𝐍™ 🦄***
-
-
-***This bot is created with the help of NodeJS and uses [Baileys](https://github.com/adiwajshing/Baileys)***
-
-## FEATURES
-This is a highly customisable simple whatsapp bot with group management features and few media commands and chatgpt courtesy of openai APIs.
-
-You will need an openai API key for AI features to work.
-
-
-
-
-
-    
-## `Installation` 📲
-
-1. Fork the repo
-    <br>
-<a href="https://github.com/xhclintohn/TOXIC-AI/fork"><img title="TOXIC-AI" src="https://img.shields.io/badge/FORK TOXIC-1-h?color=black&style=for-the-badge&logo=stackshare"></a>
-
-
-
-## ` Link with WhatsApp`
-
-<a href='https://replit.com/@xhclinton/TOXIC-AI-Pairing-v1' target="_blank"><img alt='SCAN QR-' src='https://img.shields.io/badge/Scan_qr-2-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=red'/></a>
-
-
-
+## ` Pair with WhatsApp`
+<h2 align="left">  <a href="https://replit.com/@xhclinton/Toxic-MD-V1"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+</a>
+</h2>
 
 ## 
-- After you getting the `creds.json. ` then upload the `creds.json` in the `./dreaded1` folder. then you can deploy on your favourite platform by connecting your fork.
+- After getting your session id
+deploy on your favorite platform,
+
+
+   
 
 
 
 
-Alternatively, pair locally using the repo [Here](https://github.com/xhclintohn/TOXIC-PAIRING)
-
-    
-<h2 align="center">   
-
-
-
-    
-
-
-
-
-
- 
-     
-
-    
- 
-
-Incase of any issues, contact me
-
-<p align="center">
-
-<a href="https://api.whatsapp.com/send?phone=254735342808&text=𝘩𝘦𝘭𝘭𝘰+Clinton"><img src="https://img.shields.io/badge/Contact Clinton-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<p align="center" >
+    <a href="https://heroku.com/deploy?template=https://github.com/xhclintohn/Toxic-MD">
+    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
+    </a>
 
 </p>
 
+<p align="center" >
+    <br>
 
 
-🄼🄾🄳🄸🄵🅈🄸🄽🄶 🅃🄷🄴 🄱🄾🅃 🅂🅃🅁🅄🄲🅃🅄🅁🄴 🄸🅂 🄰🅃 🅈🄾🅄🅁 🄾🅆🄽 🅁🄸🅂🄺. 🅆🄴 🅆🄾🄽'🅃 🄾🄵🄵🄴🅁 🅃🄴🄲🄷🄽🄸🄲🄰🄻 🅂🅄🄿🄿🄾🅁🅃 🄸🄽 🄲🄰🅂🄴 🄾🄵 🄴🅁🅁🄾🅁🅂 🅁🄴🅂🅄🄻🅃🄸🄽🄶!
-
-
-
-## License
-
-[MIT License](https://https://github.com/xhclintohn/TOXIC-AI/blob/main/LICENSE)
-
-Copyright (c) 2023 TOXIC-AI
-
+<br>
+<a href="https://railway.app/new"><img src="https://railway.app/button.svg" />
+<br>
+<br>
+  <a href="https://github.com/codespaces/new"><img title="A17 on Gitub Codespace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
+</a>
+  <br>
+<br>
+ 
