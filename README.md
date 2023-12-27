@@ -4,7 +4,7 @@
   <a href="https://chat.whatsapp.com/ESB8e9HAS2wGlwBvzGnLx">
     <img alt=Support height="250" src="https://i.imgur.com/uHWFNup.jpeg"> </p>
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+BLADE-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+Toxic-MD-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
   </p>
   <p align="center"> 
   <a href="https://github.com/xhclintohn/Toxic-MD/stargazers">
@@ -45,9 +45,13 @@
 
 
 ## ` Pair with WhatsApp`
-<h2 align="left">  <a href="https://replit.com/@xhclinton/Toxic-MD-V1"><img src="https://repl.it/badge/github/quiec/whatsasena" />
+<br>
+<a href="https://replit.com/@xhclinton/Toxic-MD-V1"><img title="Pair with replit" src="="https://repl.it/badge/github/quiec/whatsasena" />
 </a>
 </h2>
+  
+
+
 
 ## 
 - After getting your session id
