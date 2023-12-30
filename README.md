@@ -59,27 +59,3 @@ deploy on your favorite platform,
 
 
    
-
-
-
-
-<p align="center" >
-    <a href="https://heroku.com/deploy?template=https://github.com/xhclintohn/Toxic-MD">
-    <img src="https://www.herokucdn.com/deploy/button.png" width="160px" alt="Deploy on Heroku" >
-    </a>
-
-</p>
-
-<p align="center" >
-    <br>
-
-
-<br>
-<a href="https://railway.app/new"><img src="https://railway.app/button.svg" />
-<br>
-<br>
-  <a href="https://github.com/codespaces/new"><img title="A17 on Gitub Codespace" src="https://img.shields.io/badge/DEPLOY CODESPACE-h?color=black&style=for-the-badge&logo=visualstudiocode" />
-</a>
-  <br>
-<br>
- 
