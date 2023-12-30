@@ -46,9 +46,9 @@
 
 ## ` Pair with WhatsApp`
 <br>
-<a href="https://replit.com/@xhclinton/Toxic-MD-V1"><img title="Pair with replit" src="="https://repl.it/badge/github/quiec/whatsasena" />
-</a>
-</h2>
+<a href='https://replit.com/@xhclinton/Toxic-MD-V1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan qr--100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
+
+  
   
 
 
