@@ -497,6 +497,11 @@ console.log(advice());
 
 break;
 
+case "Toxic":
+reply(rare);
+
+break;
+
 case "compile-py":
 
 if (!text && !m.quoted) throw 'Quote/tag a python code to compile.';
