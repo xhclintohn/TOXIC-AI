@@ -1,4 +1,4 @@
-const sessionName = "dreaded1";
+const sessionName = "Session";
 const antiforeign = process.env.ANTIFOREIGN || 'FALSE';
 const autobio = process.env.AUTOBIO || 'TRUE';
 let botname = process.env.BOTNAME || '𝑻𝑶𝑿𝑰𝑪-𝐀𝐈';
