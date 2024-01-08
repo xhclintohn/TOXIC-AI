@@ -7,7 +7,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+Toxic-MD-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
   </p>
   <p align="center"> 
-  <a href="https://github.com/xhclintohn/Toxic-MD/stargazers">
+  <a href="https://github.com/xhclintohn/Toxic-AI/stargazers">
     <img src="https://img.shields.io/github/stars/xhclintohn/Toxic-MD?style=social">
 
 
