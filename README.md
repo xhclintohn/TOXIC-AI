@@ -12,7 +12,7 @@
 
 
 <p align="center"> 
-  Hi there, I am "Toxic md" a WhatsApp bot made by Clinton to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+  Hi there, I am "Toxic AI" a simple WhatsApp bot made by Clinton to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
 </p>
 </br>
 
