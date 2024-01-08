@@ -54,7 +54,7 @@
 
 
 ## 
-- After getting your /creds.json upload it to session folder then
+- After getting your /creds.json upload it to /session folder then
 deploy on your favorite platform, enjoy 💩
 
 
