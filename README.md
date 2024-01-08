@@ -4,7 +4,7 @@
   <a href="https://chat.whatsapp.com/ESB8e9HAS2wGlwBvzGnLx">
     <img alt=Support height="250" src="https://i.imgur.com/uHWFNup.jpeg"> </p>
 <div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+Toxic-MD-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Impact&size=50&pause=1000&color=000000&center=true&width=910&height=100&lines=THIS IS+Toxic-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+THE TEAM Toxic ;PUBLIC+RELESED+DATE;2023/08/21;." alt="Typing SVG" /></a>
   </p>
   <p align="center"> 
   <a href="https://github.com/xhclintohn/Toxic-AI/stargazers">
